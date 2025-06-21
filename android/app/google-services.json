@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "892615917720",
+    "project_id": "harmony-music-a1fba",
+    "storage_bucket": "harmony-music-a1fba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892615917720:android:3e932f8887fe6bea2090ed",
+        "android_client_info": {
+          "package_name": "com.anandnet.harmonymusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892615917720-bvsoivqd06ppk3tucgumt05t611j2631.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anandnet.harmonymusic",
+            "certificate_hash": "98eb013160a2b5801b41464642f9bf85f67b1554"
+          }
+        },
+        {
+          "client_id": "892615917720-qo3pvaukjb98jhtvpefhtjpofpkpl3el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2-Zff4agjYsx-G7oCZmOPXyBGxxirAcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892615917720-qo3pvaukjb98jhtvpefhtjpofpkpl3el.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "892615917720-8iqanspa2gdjs8nnct1cs5ao1irb4rbd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anandnet.harmonymusic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
