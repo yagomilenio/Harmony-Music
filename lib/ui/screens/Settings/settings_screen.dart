@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:harmonymusic/ui/screens/Login/SignIn.dart';
 import 'package:harmonymusic/utils/helper.dart';
 import 'package:harmonymusic/utils/lang_mapping.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -626,6 +627,21 @@ class SettingsScreen extends StatelessWidget {
                           () => Get.delete<RestoreDialogController>()),
                     ),
                   ]),
+              CustomExpansionTile(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SignIn()),
+                      );
+                    },
+                    child: const Text('Continue without login'),
+                  ),
+                ],
+                icon: Icons.access_alarms,
+                title: 'Login',
+              ),
               CustomExpansionTile(
                   icon: Icons.miscellaneous_services,
                   title: "misc".tr,
